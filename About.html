@@ -1,0 +1,291 @@
+﻿<!--
+Site created by: Daniel Wang (www.wangdaniel.net)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/personal.css" rel="stylesheet" />
+    <!--Scripting-->
+    <script type="text/javascript" src="Scripts/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="Scripts/popper.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.js" integrity="sha512-oFCsbxZP/K+0EjvkyIHBvC3ft8LZnO+8kljz0RiJN8ffUCeX0LF1G0WlvU3jMJVaoKBrC+I2ohi4BCpKq2ZgXw==" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/less@4" ></script>
+    <script src="Scripts/less.min.js.map"></script>
+    <!--Personal-->
+    <script src="personalScript.js"></script>
+    <link href="personalCSS.css" rel="stylesheet">
+</head>
+<body>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Jack Whitley</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end heightAdjust">
+                    <span class="navbar-text heightAdjust">
+                        Welcome to the site
+                    </span>
+            </div>
+        </div>
+    </nav>
+    <!--Content-->
+    <br>
+    <div class="row text-center">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <h1 class="display-2">About Me</h1>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <h1 class="display-6">Hey there! I'm Jack.</h1>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+    <div class="row text-center">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <h1 class="display-4">Credentials</h1>
+            <br>
+            <div class="display-6">What do you want to see?</div>
+            <br>
+            <button type="button" class="btn btn-primary" id="btn1" onclick="btnClick(1)">Work Experience</button>
+            <button type="button" class="btn btn-outline-dark" id="btn2" onclick="btnClick(2)">Skills</button>
+            <button type="button" class="btn btn-outline-dark" id="btn3" onclick="btnClick(3)">Education</button>
+            <button type="button" class="btn btn-outline-dark" id="btn4" onclick="btnClick(4)">Accomplishments</button>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+    <br>
+    <div class="container-fluid" id="disp1" style="display: block">
+        <div class="row text-center">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h1 class="display-4">Work Experience</h1>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3">
+                    <h1 class="display-6"><b>Juneau School District, Juneau</b></h1>
+                    <h1 class="display-6">Paraeducator</h1>
+                </div>
+                <div class="col-sm-4"></div>
+                <div class="col-sm-3">
+                    <h1 class="display-6 text-right">November 2021 - May 2022</h1>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <ul class="list-group list-group-flush ml-4">
+                        <li class="list-group-item-light">Provided liaison support for immediate staff in my department regarding computers and ancillary
+                            equipment.</li>
+                        <li class="list-group-item-light">Acted as onsite technical consultant and escalated appropriate tickets.</li>
+                        <li class="list-group-item-light">Developed advanced abilities and strategies for working with challenging individuals.</li>
+                    </ul>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+
+        <br>
+
+        <div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3">
+                    <h1 class="display-6"><b>Formal Blizzard LC</b></h1>
+                    <h1 class="display-6">Owner</h1>
+                </div>
+                <div class="col-sm-4"></div>
+                <div class="col-sm-3">
+                    <h1 class="display-6 text-right">May 2020 - Present</h1>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <ul class="list-group list-group-flush ml-4">
+                        <li class="list-group-item-light">Own and operate a live streaming company ranked in the top tier percentage of viewership per
+                            Twitch Interactive.</li>
+                        <li class="list-group-item-light">Installation and support of hardware and software to include basic server setup,
+                            configuration, as well as troubleshooting.</li>
+                        <li class="list-group-item-light">Advanced customization of chatbots to enhance user experience and ease of use.</li>
+                    </ul>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+        
+        <br>
+        
+        <div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3">
+                    <h1 class="display-6"><b>Arctic Chiropractic</b></h1>
+                    <h1 class="display-6">Patient Care and Database Specialist</h1>
+                </div>
+                <div class="col-sm-4"></div>
+                <div class="col-sm-3">
+                    <h1 class="display-6 text-right">February 2019 - November 2021</h1>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <ul class="list-group list-group-flush ml-4">
+                        <li class="list-group-item-light">Patched and maintained Chirotouch, 2020viewer, Opallight, applications used in medical
+                            practice.</li>
+                        <li class="list-group-item-light">Responsive to IT issues for business needs including, troubleshooting, repair, diagnostic,
+                            hardware upgrades, maintenance, and ticket escalation.</li>
+                        <li class="list-group-item-light">Minimized outage times and increased productivity of the business.</li>
+                        <li class="list-group-item-light">Worked with our HIPAA compliance officer to maintain compliance by ensuring security of email
+                            servers and patching and teaching employees security practices.</li>
+                    </ul>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+
+        <br>
+
+        <div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3">
+                    <h1 class="display-6"><b>Northstar Trekking</b></h1>
+                    <h1 class="display-6">Ground Crew</h1>
+                </div>
+                <div class="col-sm-4"></div>
+                <div class="col-sm-3">
+                    <h1 class="display-6 text-right">Summer 2016</h1>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <ul class="list-group list-group-flush ml-4">
+                        <li class="list-group-item-light">Utilized advanced communication skills in delivering daily safety briefings in multiple languages
+                            to ensure client safety.</li>
+                        <li class="list-group-item-light">Met FAA and Tour Operations Safety guidelines governing aviation standards and passed
+                            multiple surprise audits.</li>
+                    </ul>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid" id="disp2" style="display: none">
+        <div class="row text-center">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h1 class="display-4">Skills</h1>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h1 class="display-6">Experience in:</h1>
+                <ul class="list-group list-group-flush ml-4">
+                    <li class="list-group-item-light">Operating and maintaining various end-user IT setups in a professionl and private context, including but not limited to, billing, charting, voice transcription, DICOM converters and
+                        viewers, opal viewer, 2020 viewer, Chirotouch software</li>
+                    <li class="list-group-item-light">Teaching complex ideas for training purposes to users with various skill levels</li>
+                    <li class="list-group-item-light">Data entry and manipulation of patient data for systems with thousands of patients</li>
+                    <li class="list-group-item-light">Ability to work well in a team, remote, or individualized environment.</li>
+                    <li class="list-group-item-light">Providing ticket support and escalation in a fast paced environment</li>
+                    <li class="list-group-item-light">Management of procurement and documentation of medical and IT components</li>
+                    <li class="list-group-item-light">Novice network configuration including port forwarding and IP blocking for my own business</li>
+                    <li class="list-group-item-light">Assembling computers from base to installation of operating systems and applications</li>
+                    <li class="list-group-item-light">Escalation of tickets and worked with 3rd party remote vendors and technicians and implemented
+                        onsite repair.</li>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div class="container-fluid" id="disp3" style="display: none">
+        <div class="row text-center">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h1 class="display-4">Education</h1>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h1 class="display-6"><b>University of Alaska SE</b> - <i>BS in Human Anatomy</i></h1>
+                <h1 class="display-6 text-muted">29 credits towards bachelors in Human Anatomy</h1>
+                <br>
+                <h1 class="display-6"><b>Computer Science 50</b> - <i>Offered through Harvard University</i></h1>
+                <h1 class="display-6 text-muted">Introduction to computer science offered by Harvard university online, it teaches basic coding and software
+                    design in C, C++, Python, Java, and SQL. Anticipated date of completion - September 2022</h1>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div class="container-fluid" id="disp4" style="display: none">
+        <div class="row text-center">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h1 class="display-4">Achievements</h1>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <ul class="list-group list-group-flush ml-4">
+                    <li class="list-group-item-light">Nationally Registered Emergency Medical Technician (NREMT) - Basic</li>
+                    <li class="list-group-item-light">Eagle Scout</li>
+                    <li class="list-group-item-light">Conversational German</li>
+                    <li class="list-group-item-light">Basic Life Support (BLS) Training</li>
+                    <li class="list-group-item-light">Incident command structure 100 and 200 (ICS 100&200)</li>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+</body>
+</html>

@@ -1,0 +1,59 @@
+﻿/*
+Site created by: Daniel Wang (www.wangdaniel.net)
+*/
+
+.typing{
+    animation: type 2s steps(30), cursor .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid;
+}
+
+.nameFont{
+    font-family: "Gill Sans MT" !important;
+}
+
+.heightAdjust{
+    height: 40%;
+}
+
+.heightDefine{
+    height: 100vh;
+}
+
+.fixAlign{
+    vertical-align: middle;
+}
+
+.fixBackground{
+    background-color: transparent!important;
+}
+
+.fixColor{
+    color: black
+}
+
+.delay1{
+    animation-delay: 2s;
+}
+
+.delay2{
+    animation-delay: 4s;
+}
+
+.debug{
+    border-color: red;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+@keyframes type{
+    from {width: 0}
+    to {width: 100%}
+}
+
+@keyframes cursor{
+    50% {border-color: transparent}
+}
